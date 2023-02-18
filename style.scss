@@ -99,6 +99,13 @@ h1{
     }
   }
 
+  /* Presupuesto.html */
+  
+    .foto-contacto{
+        height: 35rem;
+        width: 35rem;
+    }
+
   /* CSS NUSTROS PRODUCTOS */
 
 .titulo_nuestros_productos{
@@ -150,7 +157,7 @@ h1{
   
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 
 .nuestros-clientes {
     display: flex;
@@ -184,6 +191,20 @@ h1{
 .foto-contacto{
     margin-top: 50px;
     justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+}
+.imagen-logo{
+    
+    width: 30px;
+    height: 30px;
+}  
+
+.icono{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 }

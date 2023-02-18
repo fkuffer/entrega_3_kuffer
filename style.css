@@ -6,8 +6,8 @@ body {
 
 /* nav */
 .imagen-logo {
-  width: 90px;
-  height: 75px;
+  width: 80px;
+  height: 70px;
 }
 
 .background-nav {
@@ -58,19 +58,28 @@ a {
 }
 /* footer */
 .dato {
+  display: flex;
+  align-items: center;
   padding-left: 20px;
 }
 
 /* footer */
 .icono {
   display: flex;
+  align-items: center;
   margin-left: 15px;
+}
+
+.contenedor-telefono {
+  display: flex;
+  align-items: center;
 }
 
 /* footer */
 #contactenosTexto {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   margin-right: 15px;
 }
 
@@ -79,7 +88,7 @@ a {
 }
 
 .fondo-footer {
-  height: 80px;
+  height: 100px;
   margin-top: 40px;
 }
 
@@ -151,6 +160,12 @@ h1 {
     transform: rotate(360deg);
   }
 }
+/* Presupuesto.html */
+.foto-contacto {
+  height: 35rem;
+  width: 35rem;
+}
+
 /* CSS NUSTROS PRODUCTOS */
 .titulo_nuestros_productos {
   display: inline-block;
@@ -194,7 +209,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .nuestros-clientes {
     display: flex;
     flex-direction: column;
@@ -216,5 +231,17 @@ h1 {
   .foto-contacto {
     margin-top: 50px;
     justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+  }
+  .imagen-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .icono {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
