@@ -115,7 +115,8 @@ h1{
 }
 
 .servicios{
-    margin-left: 35px;
+    padding: 40px;
+    padding-bottom: 30px;
 }
 .nuestros_servicios{
     margin-top: 35px;
@@ -134,14 +135,14 @@ h1{
 /* Animacion fotos productos */
 
 .img-productos{
-    width: 15rem;
+    width: 12rem;
     height: 12rem;
     transition: height 1s, width 1s;
 }
 
 .img-productos:hover {
-    width: 16rem;
-    height: 13rem;
+    width: 18rem;
+    height: 12.4rem;
     
 
 }
@@ -197,14 +198,23 @@ h1{
 }
 .imagen-logo{
     
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }  
 
 .icono{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.img-productos-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    
 }
 
 }
